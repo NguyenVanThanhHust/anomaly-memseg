@@ -7,12 +7,11 @@
         "args": {}
     },
     "data_loader": {
-        "type": "MnistDataLoader",
+        "type": "MVTecDataLoader",
         "args":{
-            "data_dir": "data/",
+            "data_dir": "datasets/",
             "batch_size": 128,
             "shuffle": true,
-            "validation_split": 0.1,
             "num_workers": 2
         }
     },
